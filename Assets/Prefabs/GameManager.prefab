@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1883652592227652}
+  m_IsPrefabAsset: 1
+--- !u!1 &1883652592227652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4768224286725714}
+  - component: {fileID: 114362290305576718}
+  - component: {fileID: 114380723640431700}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4768224286725714
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883652592227652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114362290305576718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883652592227652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382e09658df2bf84da2a3cd141da0908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filas: 10
+  columnas: 10
+  minMurosInternos: 5
+  maxMurosInternos: 10
+  minComida: 2
+  maxComida: 5
+  suelos:
+  - {fileID: 1306823426576392, guid: 4993722b5f1745441966f61419732309, type: 2}
+  - {fileID: 1069606550076584, guid: 6eae523bc8ab3c94a9be680a0dc0551b, type: 2}
+  - {fileID: 1367668256782234, guid: 4946cc0bddbaf4f41ad4e507cc8a6d5e, type: 2}
+  - {fileID: 1850392821349408, guid: fe311d01a48a537499a38966dcc78bab, type: 2}
+  - {fileID: 1010912150136060, guid: eb160eb8d8b66b64caa6bfa1f2735d42, type: 2}
+  - {fileID: 1750794752518484, guid: 666bb651821de8b4eb1c156e623d0548, type: 2}
+  - {fileID: 1239155991300986, guid: 1b35989d6065b9c48b7e1e80203ec0ca, type: 2}
+  - {fileID: 1963008142343006, guid: dea07d3000c7e67448aee439f07c570a, type: 2}
+  muros:
+  - {fileID: 1373946525165064, guid: 4b434d162fbf5d2489996c1162cc312a, type: 2}
+  - {fileID: 1203757133103096, guid: 5ce5093feafa2c84d9a85f148240102b, type: 2}
+  - {fileID: 1139311440959886, guid: 8819487dab06be44db2a37e1f806a82d, type: 2}
+  murosInternos:
+  - {fileID: 1941908048945794, guid: 65a814141040d8043a9fd8185044dc52, type: 2}
+  - {fileID: 1260177110886110, guid: 382b39968f051d94f9c7fca498848748, type: 2}
+  - {fileID: 1140676300350578, guid: d0e62fa7730d68b479644c758e4fca9f, type: 2}
+  - {fileID: 1992001609518876, guid: 733aa8dd07509b6408050aafec2a102b, type: 2}
+  - {fileID: 1523875897050918, guid: 59b6f62977e7cae46b65c238a63e0358, type: 2}
+  - {fileID: 1701525904330958, guid: 4bbcac3865994bd4abd3f7a4c2509a75, type: 2}
+  - {fileID: 1911575044383598, guid: 5659e30320352f34588f9ad21965c1ed, type: 2}
+  - {fileID: 1603232015710428, guid: 8f5b12fc0e6c2c44c9302abf7368668c, type: 2}
+  comida:
+  - {fileID: 1943593855432622, guid: e20281a6f841a7642a625d7ddd89b812, type: 2}
+  - {fileID: 1744933821999726, guid: 212074a25741ddf4382614c1be95f5c9, type: 2}
+  enemigos:
+  - {fileID: 1954503218419562, guid: fdbcc08b5e16a5349b8423f8dbdf1b90, type: 2}
+  - {fileID: 1293784844430250, guid: 178158b59d5cf114e99243108446a75c, type: 2}
+  exit: {fileID: 1870645565426826, guid: 83a63357f9845844fa60777d1069d56d, type: 2}
+--- !u!114 &114380723640431700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883652592227652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5406534dbac80e458820654fa7cfccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoTurno: 0.1
+  delayNiveles: 2
+  mp: {fileID: 0}
+  hambre: 100
+  turno: 1
+  cargandoEscena: 0
